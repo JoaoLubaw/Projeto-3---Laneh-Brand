@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laneh Brand</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-tittle">Laneh Brand</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Momentos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso catálogo</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.jpg" alt="">
+                    </div>
+                </div>
+    
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev"> 
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next"> 
+                    <span class="carousel-control-next-icon"> </span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/loja.jpg" class="d-block  w-100 rounded" alt="Foto do espaço da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-tittle">Sobre a <span>Laneh Brand</span></h2>
+                            <p>
+                                Mais que uma loja, um espaço no seu guarda-roupa e no seu coração, com atendimento personalizado via whatssapp e entregas no Brasil.</p>
+                            <h3 class="section-tittle">Sobre o <span>espaço</span></h3>
+                            <p>
+                                A Laneh Brand se localiza em um centro comercial da cidade de Guabiruba, visando o antendimento regional de qualidade, com atenção e carinho com nossas consumidoras; Oferecemos as seguintes formas de pagamento:
+                            </p>                           
+                            <ul>
+                                <li>Cartão <span class="juros">|até 6 vezes sem juros!!|</span></li>
+                                <li>Boleto/Pix</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center mb-4">Para todas os <span>momentos</span></h2>
+                </div>
+                <div class="row mt-4">
+
+                    <div class="col-md-4">
+                        <img src="images/eventos/aniversario.jpg" alt="Imagem de cupcake com vela de aniversário" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-tittle text-colored fs-4">
+                        <i class="bi bi-calendar-heart-fill"></i>
+                        Aniversário em família</h3>
+                    <p>Aquele jantarzinho casual onde você precisa surpreender a sogrinha.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/eventos/casamento.jpg" alt="Imagem de mesa enfeitada para casamento" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Um casamento</h3>
+                        <p>Se é mal educado ficar mais bonita que a noiva eu não sei, mas você com certeza não vai nem se preocupar com isso depois que se olhar no espelho.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/eventos/confraternizacoes.jpg" alt="Imagem taças de champangne se batendo" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Reuniões da empresa</h3>
+                        <p>Formal não precisa significar aquele mesmo blazerzinho que voê tem guardado a anos no guarda-roupa, inove, seja você, formal e elegante!</p>    
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <h2 class="section-tittle text-center mt-4">Vá de <span>Laneh Brand</span></h2>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center mb-5">Nosso <span>catálogo</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#vestidos" class="fw-bold text-start nav-link active text-colored">Vestidos e saias</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#casacos" class="fw-bold text-start nav-link text-colored">Casacos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#blusas" class="fw-bold text-start nav-link text-colored">Blusas</button>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+
+                            <div class="tab-pane active" id="vestidos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/roupas/1.jpg">
+                                        <h5 class="mt-2 text-colored fw-bold">Saia de tule</h5>
+                                        <p>A saia de tule transita entre os estilos dramático urbano, sensual, criativo e romântico sem deixar dúvidas de que as produções em que ela se aplica esbanjam estilo e impacto.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/roupas/2.jpg">
+                                        <h5 class="mt-2 text-colored fw-bold">Saia em camadas</h5>
+                                        <p>A saia de tule em camadas deixa o estilo ainda mais romântico, e quase que impossível de resistir.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/roupas/3.jpg">
+                                        <h5 class="mt-2 text-colored fw-bold">Macacão</h5>
+                                        <p>O poder feminino exala charme e elegância neste macacão, que compõe plissado juntamente com cava americana. Poder e feminilidade </p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/roupas/4.jpg">
+                                        <h5 class="mt-2 text-colored fw-bold">Vestido manga nula</h5>
+                                        <p>Este vestido de modelo nula manga, já é charmoso por seu corte, imagina então com detalhes em pregas.
+                                            Este modelo une estes detalhes, em conjunto com o comprimento de três Marias..</p>
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+
+                            <div class="tab-pane " id="casacos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/roupas/5.jpg">
+                                        <h5 class="mt-2 text-colored fw-bold">Poncho em tricô mousse</h5>
+                                        <p>Com este modelo de poncho em tricô de linha mousse você garante um look que aquece com muito glamour.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/roupas/6.jpg">
+                                        <h5 class="mt-2 text-colored fw-bold">Poncho branco</h5>
+                                        <p>Rico em detalhes, tramado com tranças de manga a manga, aconchegante com sua gola caída, e o destaque maior fica por conta do detalhe das mangas volumosas com rico acabamento no punho.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/roupas/7.jpg">
+                                        <h5 class="mt-2 text-colored fw-bold">Poncho verde</h5>
+                                        <p>Entre os clássicos da moda, a cor verde musgo tem seu reinado garantido.
+                                            E este tricô garantiu seu lugar na coleção winter 2023 </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane " id="blusas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/roupas/8.jpg">
+                                        <h5 class="mt-2 text-colored fw-bold">Cropped de linha</h5>
+                                        <p>Cropped de linha, ajustado ao corpo, com recorte moderno e diferenciado.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/roupas/9.jpg">
+                                        <h5 class="mt-2 text-colored fw-bold">Cropped de linha cruzada</h5>
+                                        <p>Um estilo arrojado aplicado a perfeita composição de viscose com poliamida, que proporciona ótimo caimento e permite a transpiração.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/roupas/10.jpg">
+                                        <h5 class="mt-2 text-colored fw-bold">Cropped em laise</h5>
+                                        <p>Cropped em laise, modelo estruturado e ao mesmo tempo leve, devido seu produto ser em tecido com fibra natural. O laise é assim conhecido devido sua trama ser bordada com vazados formando o trabalhado no tecido, que tem em sua composição 100 algodão </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contato pt-5 pb-5" id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center"> Fale <span>Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form id="formcontato">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" class="form-control" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem"></textarea>
+                            </div>
+                            <button type="submit"class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-tittle fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="https://www.facebook.com/lanehbrandcollection/">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="https://www.instagram.com/lanehbrandoficial/">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="https://wa.link/culigp">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4 endereco">
+                            <h3 class="section-tittle fs-4 text-colored">
+                                <i class="bi bi-cursor-fill text-colored "></i>Endereço</h3>
+                            <a href="https://goo.gl/maps/gpSqWtLjyT7xepMC7">Rua Brusque, 861 - Sala 3 | Centro Comercial Espaço Garda - Centro, Guabiruba - SC
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
